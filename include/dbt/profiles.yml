@@ -1,0 +1,12 @@
+sales:
+ target: dev
+ outputs:
+  dev:
+    type: bigquery
+    method: service-account
+    keyfile: /usr/local/airflow/include/gcp/service_account.json
+    project: atomic-graph-451814-f6
+    dataset: sales
+    threads: 1
+    timeout_seconds: 300
+    location: US

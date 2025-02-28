@@ -1,0 +1,7 @@
+name: 'sales'
+
+profile: 'sales'
+
+models:
+  sales:
+    materialized: table

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sales
+    database: atomic-graph-451814-f6
+
+    tables:
+      - name: raw_sales

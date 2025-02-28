@@ -1,0 +1,11 @@
+checks for raw_sales:
+  - schema:
+      fail:
+        when required column missing: [date, datetime, cash_type, card, money, coffee_name]
+        when wrong column type:
+          date: string
+          datetime: string
+          cash_type: string
+          card: string
+          money: float64
+          coffee_name: string

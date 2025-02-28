@@ -1,0 +1,14 @@
+data_source sales:
+  type: bigquery
+  connection:
+    account_info_json_path: /usr/local/airflow/include/gcp/service_account.json
+    auth_scopes:
+    - https://www.googleapis.com/auth/bigquery
+    - https://www.googleapis.com/auth/cloud-platform
+    - https://www.googleapis.com/auth/drive
+    project_id: 'atomic-graph-451814-f6'
+    dataset: sales
+soda_cloud:
+  host: cloud.us.soda.io
+  api_key_id: 1a6f2c50-178a-41b6-ad65-bcff7996899c
+  api_key_secret: x7p37q_ZJ-8XFtVY9vdtQox17j217-5clRQWm-_uuAZ7mC3XEGoN2A
