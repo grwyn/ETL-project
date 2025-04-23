@@ -3,7 +3,7 @@
 ### This project aims to build an ETL (Extract, Transform, Load) pipeline to process coffee sales data and create a dashboard for analysis.
 
 ### Source Dataset : [Kaggle - Coffee Sales Dataset](https://www.kaggle.com/datasets/ihelon/coffee-sales)
-s
+
 ### Tech Stack & Tools Used
 #### ETL Pipeline
 <ul>
